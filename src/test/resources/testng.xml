@@ -14,53 +14,53 @@
 
     </test>
 
-    <test name="Chrome Execution Trial Signup Page 2">
+    <!--<test name="Chrome Execution Trial Signup Page 2">-->
 
-        <parameter name="browserName" value="Chrome" />
-        <parameter name="browserVersion" value="Any" />
-        <parameter name="platform" value="Windows" />
+        <!--<parameter name="browserName" value="Chrome" />-->
+        <!--<parameter name="browserVersion" value="Any" />-->
+        <!--<parameter name="platform" value="Windows" />-->
 
-        <classes>
-            <class name="test.TrialSignupTest" />
-        </classes>
+        <!--<classes>-->
+            <!--<class name="test.TrialSignupTest" />-->
+        <!--</classes>-->
 
-    </test>
+    <!--</test>-->
 
-    <test name="Chrome Execution Login Page">
+    <!--<test name="Chrome Execution Login Page">-->
 
-        <parameter name="browserName" value="Chrome" />
-        <parameter name="browserVersion" value="Any" />
-        <parameter name="platform" value="Windows" />
+        <!--<parameter name="browserName" value="Chrome" />-->
+        <!--<parameter name="browserVersion" value="Any" />-->
+        <!--<parameter name="platform" value="Windows" />-->
 
-        <classes>
-            <class name="test.LoginPageTest" />
-        </classes>
+        <!--<classes>-->
+            <!--<class name="test.LoginPageTest" />-->
+        <!--</classes>-->
 
-    </test>
+    <!--</test>-->
 
 
-    <test name="Chrome Execution Login Page 2">
+    <!--<test name="Chrome Execution Login Page 2">-->
 
-        <parameter name="browserName" value="Chrome" />
-        <parameter name="browserVersion" value="Any" />
-        <parameter name="platform" value="Windows" />
+        <!--<parameter name="browserName" value="Chrome" />-->
+        <!--<parameter name="browserVersion" value="Any" />-->
+        <!--<parameter name="platform" value="Windows" />-->
 
-        <classes>
-            <class name="test.LoginPageTest" />
-        </classes>
+        <!--<classes>-->
+            <!--<class name="test.LoginPageTest" />-->
+        <!--</classes>-->
 
-    </test>
+    <!--</test>-->
 
-    <test name="Chrome Execution Login Page 3">
+    <!--<test name="Chrome Execution Login Page 3">-->
 
-        <parameter name="browserName" value="Chrome" />
-        <parameter name="browserVersion" value="Any" />
-        <parameter name="platform" value="Windows" />
+        <!--<parameter name="browserName" value="Chrome" />-->
+        <!--<parameter name="browserVersion" value="Any" />-->
+        <!--<parameter name="platform" value="Windows" />-->
 
-        <classes>
-            <class name="test.LoginPageTest" />
-        </classes>
+        <!--<classes>-->
+            <!--<class name="test.LoginPageTest" />-->
+        <!--</classes>-->
 
-    </test>
+    <!--</test>-->
 
 </suite>

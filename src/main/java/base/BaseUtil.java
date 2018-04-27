@@ -19,7 +19,7 @@ import java.net.URL;
 public class BaseUtil {
 
     private String accessKey = "eyJ4cC51IjoxLCJ4cC5wIjoyLCJ4cC5tIjoiTVRVeU5ETTBOREl6TmpVNE13IiwiYWxnIjoiSFMyNTYifQ.eyJleHAiOjE4Mzk3MDQyMzYsImlzcyI6ImNvbS5leHBlcml0ZXN0In0.Ym0yDQ88ovKHRUugWnGlpyJ7XVrVEm2lDq3CHD29xb0";
-    private String cloudURL = "http://localhost:9192/wd/hub";
+    private String cloudURL = "http://192.168.0.12:9192/wd/hub";
 
     public ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<>();
 
@@ -43,7 +43,7 @@ public class BaseUtil {
 
         if (platform.equalsIgnoreCase("Windows")) {
 
-            dc.setCapability(CapabilityType.PLATFORM, Platform.WIN8);
+            dc.setCapability(CapabilityType.PLATFORM, Platform.WIN10);
             dc.setCapability(CapabilityType.VERSION, browserVersion);
 
             if (browserName.equalsIgnoreCase("Chrome")) {

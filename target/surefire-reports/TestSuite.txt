@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 7, Errors: 0, Skipped: 11, Time elapsed: 117.823 s <<< FAILURE! - in TestSuite
+setUp(test.TrialSignupTest)  Time elapsed: 117.486 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Unable to parse remote response: Test request was canceled
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'WINDOWS-KEN7H9H', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: RemoteWebDriver
+
+tearDown(test.TrialSignupTest)  Time elapsed: 117.487 s  <<< FAILURE!
+java.lang.NullPointerException
+
+tearDown(test.TrialSignupTest)  Time elapsed: 117.488 s  <<< FAILURE!
+java.lang.NullPointerException
+
+tearDown(test.TrialSignupTest)  Time elapsed: 117.489 s  <<< FAILURE!
+java.lang.NullPointerException
+
+tearDown(test.TrialSignupTest)  Time elapsed: 117.491 s  <<< FAILURE!
+java.lang.NullPointerException
+
+tearDown(test.TrialSignupTest)  Time elapsed: 117.493 s  <<< FAILURE!
+java.lang.NullPointerException
+
+tearDown(test.TrialSignupTest)  Time elapsed: 117.494 s  <<< FAILURE!
+java.lang.NullPointerException
+

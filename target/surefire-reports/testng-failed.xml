@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Test Automation]" parallel="tests">
+  <test thread-count="5" verbose="0" name="Chrome Execution Trial Signup Page(failed)" parallel="tests">
+    <parameter name="browserVersion" value="Any"/>
+    <parameter name="browserName" value="Chrome"/>
+    <parameter name="platform" value="Windows"/>
+    <classes>
+      <class name="test.TrialSignupTest">
+        <methods>
+          <include name="registerWithInvalidFirstName"/>
+          <include name="registerUsingInvalidEmail"/>
+          <include name="registerWithInvalidLastName"/>
+          <include name="setUp"/>
+          <include name="registerUsingInvalidPassword"/>
+          <include name="registerUsingInvalidPhone"/>
+          <include name="tearDown"/>
+          <include name="registerUsingInvalidCountry"/>
+        </methods>
+      </class> <!-- test.TrialSignupTest -->
+    </classes>
+  </test> <!-- Chrome Execution Trial Signup Page(failed) -->
+</suite> <!-- Failed suite [Test Automation] -->
