@@ -14,17 +14,17 @@
 
     </test>
 
-    <!--<test name="Chrome Execution Trial Signup Page 2">-->
+    <test name="Chrome Execution Trial Signup Page 2">
 
-        <!--<parameter name="browserName" value="Chrome" />-->
-        <!--<parameter name="browserVersion" value="Any" />-->
-        <!--<parameter name="platform" value="Windows" />-->
+        <parameter name="browserName" value="Chrome" />
+        <parameter name="browserVersion" value="Any" />
+        <parameter name="platform" value="Windows" />
 
-        <!--<classes>-->
-            <!--<class name="test.TrialSignupTest" />-->
-        <!--</classes>-->
+        <classes>
+            <class name="test.TrialSignupTest" />
+        </classes>
 
-    <!--</test>-->
+    </test>
 
     <!--<test name="Chrome Execution Login Page">-->
 
