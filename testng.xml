@@ -2,21 +2,21 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Test Automation" parallel="tests">
 
-    <!--<test name="Chrome Execution Trial Signup Page">-->
+    <test name="Chrome Execution Trial Signup Page">
 
-        <!--<parameter name="browserName" value="Chrome" />-->
-        <!--<parameter name="browserVersion" value="Any" />-->
-        <!--<parameter name="platform" value="Windows" />-->
+        <parameter name="browserName" value="Chrome" />
+        <parameter name="browserVersion" value="Any" />
+        <parameter name="platform" value="Windows" />
 
-        <!--<classes>-->
-            <!--<class name="test.TrialSignupTest" />-->
-        <!--</classes>-->
+        <classes>
+            <class name="test.TrialSignupTest" />
+        </classes>
 
-    <!--</test>-->
+    </test>
 
     <test name="Chrome Execution Trial Signup Page 2">
 
-        <parameter name="browserName" value="Chrome" />
+        <parameter name="browserName" value="Firefox" />
         <parameter name="browserVersion" value="Any" />
         <parameter name="platform" value="Windows" />
 
