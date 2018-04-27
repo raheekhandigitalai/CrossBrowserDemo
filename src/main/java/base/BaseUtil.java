@@ -18,8 +18,8 @@ import java.net.URL;
 
 public class BaseUtil {
 
-    private String accessKey = "eyJ4cC51IjoxMDQ0MjksInhwLnAiOjIsInhwLm0iOiJNVFV5TURJNE1UUTFNamswTmciLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE4Mzc1MTkyNjQsImlzcyI6ImNvbS5leHBlcml0ZXN0In0.3GT-Bz5UZLTziyghMLtEVaJR-Jq89SlEm--PN9s3WrA";
-    private String cloudURL = "https://uscloud.experitest.com/wd/hub";
+    private String accessKey = "eyJ4cC51IjoxLCJ4cC5wIjoyLCJ4cC5tIjoiTVRVeU5ETTBOREl6TmpVNE13IiwiYWxnIjoiSFMyNTYifQ.eyJleHAiOjE4Mzk3MDQyMzYsImlzcyI6ImNvbS5leHBlcml0ZXN0In0.Ym0yDQ88ovKHRUugWnGlpyJ7XVrVEm2lDq3CHD29xb0";
+    private String cloudURL = "http://localhost:9192/wd/hub";
 
     public ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<>();
 
