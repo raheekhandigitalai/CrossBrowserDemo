@@ -40,6 +40,7 @@ public class BaseUtil {
         DesiredCapabilities dc = new DesiredCapabilities();
         dc.setCapability("accessKey", accessKey);
         dc.setCapability("testName", method.getName());
+        dc.setCapability("Jenkins_Build_Number", System.getenv("BUILD_NUMBER"));
 
         if (platform.equalsIgnoreCase("Windows")) {
 
