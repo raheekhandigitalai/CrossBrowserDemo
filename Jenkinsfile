@@ -1,7 +1,7 @@
 node {
    def mvnHome
    stage('Preparation') {
-      git 'https://github.com/RaheeJenkins/CrossBrowserDemo.git'
+      git 'https://github.com/raheekhandigitalai/CrossBrowserDemo.git'
       mvnHome = tool 'M3'
    }
    stage('Build') {
